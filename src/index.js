@@ -14,6 +14,7 @@ const theme = {
     textgray: '#9b9ba0',
     green: '#10b539',
     red: '#FF0000',
+    blue: '	#20B2AA',
   },
 };
 
