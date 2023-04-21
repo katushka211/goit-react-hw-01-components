@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import {
-  Container,
   ProfileCard,
   Avatar,
   Description,
@@ -22,30 +21,28 @@ export const Profile = ({
   },
 }) => {
   return (
-    <Container>
-      <ProfileCard>
-        <Description>
-          <Avatar src={avatar} alt={username} width="120" />
-          <Name>{username}</Name>
-          <UserInfo>@{tag}</UserInfo>
-          <UserInfo>{location}</UserInfo>
-        </Description>
-        <List>
-          <Item>
-            <Label>Followers:</Label>
-            <Quantity>{followers}</Quantity>
-          </Item>
-          <Item>
-            <Label>Views:</Label>
-            <Quantity>{views}</Quantity>
-          </Item>
-          <Item>
-            <Label>Likes:</Label>
-            <Quantity>{likes}</Quantity>
-          </Item>
-        </List>
-      </ProfileCard>
-    </Container>
+    <ProfileCard>
+      <Description>
+        <Avatar src={avatar} alt={username} width="120" />
+        <Name>{username}</Name>
+        <UserInfo>@{tag}</UserInfo>
+        <UserInfo>{location}</UserInfo>
+      </Description>
+      <List>
+        <Item>
+          <Label>Followers:</Label>
+          <Quantity>{followers}</Quantity>
+        </Item>
+        <Item>
+          <Label>Views:</Label>
+          <Quantity>{views}</Quantity>
+        </Item>
+        <Item>
+          <Label>Likes:</Label>
+          <Quantity>{likes}</Quantity>
+        </Item>
+      </List>
+    </ProfileCard>
   );
 };
 
