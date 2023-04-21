@@ -6,12 +6,12 @@ import { GlobalStyle } from 'components/GlobalStyle';
 
 const theme = {
   colors: {
-    lightgrey: '#e0e0ef',
-    darkgrey: '#747774',
+    lightgray: '#e0e0ef',
+    darkgray: '#747774',
     light: '#f5f5f8',
     white: '#fff',
     black: '#212122',
-    textgrey: '#9b9ba0',
+    textgray: '#9b9ba0',
   },
 };
 

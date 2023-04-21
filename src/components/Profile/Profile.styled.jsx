@@ -19,7 +19,7 @@ export const Description = styled.div`
 export const Avatar = styled.img`
   padding-bottom: 5px;
   border-radius: 50px;
-  border: 1px solid ${props => props.theme.colors.lightgrey};
+  border: 1px solid ${props => props.theme.colors.lightgray};
 `;
 
 export const Name = styled.p`
@@ -29,7 +29,7 @@ export const Name = styled.p`
 `;
 
 export const UserInfo = styled.p`
-  color: ${props => props.theme.colors.darkgrey};
+  color: ${props => props.theme.colors.darkgray};
   font-weight: 500;
 `;
 
@@ -37,7 +37,7 @@ export const List = styled.ul`
   display: flex;
   justify-content: space-between;
   background-color: ${props => props.theme.colors.light};
-  border-top: 1px solid ${props => props.theme.colors.lightgrey};
+  border-top: 1px solid ${props => props.theme.colors.lightgray};
 `;
 
 export const Item = styled.li`
@@ -48,11 +48,11 @@ export const Item = styled.li`
   padding-top: 12px;
   padding-bottom: 12px;
   width: 100%;
-  border-right: 1px solid ${props => props.theme.colors.lightgrey};
+  border-right: 1px solid ${props => props.theme.colors.lightgray};
 `;
 
 export const Label = styled.span`
-  color: ${props => props.theme.colors.darkgrey};
+  color: ${props => props.theme.colors.darkgray};
   font-weight: 500;
 `;
 
