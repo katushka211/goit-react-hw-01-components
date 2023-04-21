@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const ProfileCard = styled.div`
-  margin: 0 auto;
+  margin: 30px auto;
   background-color: ${props => props.theme.colors.white};
-  width: 230px;
+  width: 280px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   text-align: center;
 `;

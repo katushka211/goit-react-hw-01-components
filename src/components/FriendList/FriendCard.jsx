@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import { Card, Name, Status } from './FriendCard.styled';
 
 export const FriendCard = ({ item: { avatar, name, isOnline } }) => {
   return (
-    <li>
-      <span>{isOnline}</span>
+    <Card>
+      <Status active={isOnline === true}>{isOnline}</Status>
       <img src={avatar} alt="User avatar" width="48" />
-      <p>{name}</p>
-    </li>
+      <Name>{name}</Name>
+    </Card>
   );
 };
 
