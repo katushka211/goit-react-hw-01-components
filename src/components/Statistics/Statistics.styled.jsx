@@ -1,2 +1,7 @@
+import styled from 'styled-components';
 
-export StatisticCard = ({item: IdleDeadline,label,percentage})
+export const Section = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;

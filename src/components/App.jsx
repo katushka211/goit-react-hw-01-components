@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <>
       <Profile item={user} />
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
     </>
   );
 };
